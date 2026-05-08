@@ -1,6 +1,6 @@
 # EIC Lab Website
 
-Static website for EIC Lab, designed for GitHub Pages deployment.
+Static website for Edge Intelligent Computing Lab (EIC Lab) at East China Normal University, designed for GitHub Pages deployment.
 
 ## Deploy to GitHub Pages
 
