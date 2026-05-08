@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="EIC Lab works on efficient intelligent computing, including large model compression and acceleration, efficient image restoration and generation, agents, and AI for Science."
+    />
+    <title>EIC Lab | Efficient Intelligent Computing</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="EIC Lab home">
+        <span class="brand-mark">EIC</span>
+        <span>
+          <strong>EIC Lab</strong>
+          <small>Efficient Intelligent Computing</small>
+        </span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+        <i data-lucide="menu"></i>
+      </button>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
+        <a href="#people">People</a>
+        <a href="#join">Join</a>
+        <a class="nav-action" href="https://github.com/EIC_Lab" target="_blank" rel="noreferrer">
+          <i data-lucide="code-2"></i>
+          GitHub
+        </a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Open-source research for efficient AI systems</p>
+          <h1>EIC Lab</h1>
+          <p class="lead">
+            We build compact, fast, and capable AI systems across large model compression, image
+            restoration and generation, intelligent agents, and AI4Science.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">
+              <i data-lucide="boxes"></i>
+              Explore projects
+            </a>
+            <a class="button secondary" href="https://github.com/EIC_Lab" target="_blank" rel="noreferrer">
+              <i data-lucide="external-link"></i>
+              Visit GitHub
+            </a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-label="Research preview">
+          <img src="./assets/eic-lab-research-visual.png" alt="EIC Lab research system visual" />
+          <div class="signal-card">
+            <span>Featured</span>
+            <strong>Vision-R1</strong>
+            <small>Incentivizing reasoning capability in multimodal large language models</small>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats" aria-label="Lab snapshot">
+        <div>
+          <strong>4</strong>
+          <span>Research directions</span>
+        </div>
+        <div>
+          <strong>Open</strong>
+          <span>Code-first research culture</span>
+        </div>
+        <div>
+          <strong>Edge + Cloud</strong>
+          <span>Efficient deployment targets</span>
+        </div>
+      </section>
+
+      <section id="research" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Research directions</p>
+          <h2>Efficient AI from algorithms to systems</h2>
+        </div>
+        <div class="direction-grid">
+          <article class="direction">
+            <i data-lucide="gauge"></i>
+            <h3>Large Model Compression & Acceleration</h3>
+            <p>
+              Pruning, quantization, distillation, sparsity, low-rank adaptation, and deployment-aware
+              acceleration for foundation models and vision backbones.
+            </p>
+          </article>
+          <article class="direction">
+            <i data-lucide="image-plus"></i>
+            <h3>Efficient Image Restoration & Generation</h3>
+            <p>
+              Compact networks for super-resolution, dehazing, enhancement, denoising, restoration,
+              and controllable generation under real compute budgets.
+            </p>
+          </article>
+          <article class="direction">
+            <i data-lucide="bot"></i>
+            <h3>Intelligent Agents</h3>
+            <p>
+              Multimodal reasoning, tool use, planning, and evaluation pipelines that make agents more
+              reliable, inspectable, and efficient.
+            </p>
+          </article>
+          <article class="direction">
+            <i data-lucide="atom"></i>
+            <h3>AI4Science</h3>
+            <p>
+              Efficient learning systems for scientific data, simulation surrogates, discovery workflows,
+              and domain models where accuracy and compute both matter.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects-section">
+        <div class="section-heading split">
+          <div>
+            <p class="eyebrow">Open source</p>
+            <h2>Representative projects</h2>
+          </div>
+          <div class="filters" role="group" aria-label="Project filters">
+            <button class="filter active" type="button" data-filter="all">All</button>
+            <button class="filter" type="button" data-filter="compression">Compression</button>
+            <button class="filter" type="button" data-filter="image">Image</button>
+            <button class="filter" type="button" data-filter="agent">Agents</button>
+          </div>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card" data-category="agent">
+            <img src="./assets/project-vision-r1.png" alt="Vision-R1 repository preview" />
+            <div class="project-body">
+              <span class="tag">Agents · Multimodal reasoning</span>
+              <h3>Vision-R1</h3>
+              <p>
+                A multimodal reasoning project focused on incentivizing reasoning capabilities in
+                vision-language models.
+              </p>
+              <a href="https://github.com/Osilly/Vision-R1" target="_blank" rel="noreferrer">
+                <i data-lucide="code-2"></i>
+                Repository
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="compression">
+            <img src="./assets/eic-lab-research-visual.png" alt="KSE project visual" />
+            <div class="project-body">
+              <span class="tag">Compression · Interpretability</span>
+              <h3>KSE</h3>
+              <p>
+                Exploiting kernel sparsity and entropy for interpretable CNN compression, accepted by
+                CVPR 2019.
+              </p>
+              <a href="https://github.com/yuchaoli/KSE" target="_blank" rel="noreferrer">
+                <i data-lucide="code-2"></i>
+                Repository
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="compression">
+            <img src="./assets/project-gal.png" alt="GAL repository framework preview" />
+            <div class="project-body">
+              <span class="tag">Compression · Pruning</span>
+              <h3>Generative Adversarial Learning for CNN Pruning</h3>
+              <p>
+                Structured neural network pruning for compact and deployable convolutional models.
+              </p>
+              <a href="https://github.com/ShaohuiLin/GAL" target="_blank" rel="noreferrer">
+                <i data-lucide="code-2"></i>
+                Repository
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="compression">
+            <img src="./assets/eic-lab-research-visual.png" alt="GDP project visual" />
+            <div class="project-body">
+              <span class="tag">Compression · Dynamic pruning</span>
+              <h3>Global & Dynamic Filter Pruning</h3>
+              <p>
+                Accelerating convolutional networks through global and dynamic filter pruning, from
+                IJCAI 2018.
+              </p>
+              <a href="https://github.com/ShaohuiLin/GDP" target="_blank" rel="noreferrer">
+                <i data-lucide="code-2"></i>
+                Repository
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="compression">
+            <img src="./assets/eic-lab-research-visual.png" alt="LRDKT project visual" />
+            <div class="project-body">
+              <span class="tag">Compression · Low-rank</span>
+              <h3>LRDKT</h3>
+              <p>
+                Holistic CNN compression via low-rank decomposition with knowledge transfer, published
+                in TPAMI.
+              </p>
+              <a href="https://github.com/ShaohuiLin/LRDKT" target="_blank" rel="noreferrer">
+                <i data-lucide="code-2"></i>
+                Repository
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="compression">
+            <img src="./assets/eic-lab-research-visual.png" alt="SSR project visual" />
+            <div class="project-body">
+              <span class="tag">Compression · Sparsity</span>
+              <h3>SSR</h3>
+              <p>
+                Structure-sparsity regularized filter pruning for compact ConvNets, published in TNNLS.
+              </p>
+              <a href="https://github.com/ShaohuiLin/SSR" target="_blank" rel="noreferrer">
+                <i data-lucide="code-2"></i>
+                Repository
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="image">
+            <img src="./assets/project-aecr-net.png" alt="AECR-Net repository preview" />
+            <div class="project-body">
+              <span class="tag">Image · Dehazing</span>
+              <h3>AECR-Net</h3>
+              <p>
+                Contrastive learning for compact single image dehazing, connected to the low-level
+                vision direction on Shaohui Lin's publication list.
+              </p>
+              <a href="https://github.com/GlassyWu/AECR-Net" target="_blank" rel="noreferrer">
+                <i data-lucide="code-2"></i>
+                Repository
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section lab-note">
+        <div>
+          <p class="eyebrow">Working style</p>
+          <h2>From publishable ideas to usable releases</h2>
+        </div>
+        <p>
+          EIC Lab emphasizes reproducible code, practical acceleration, and systems that can be tested
+          beyond benchmark tables. The site is structured so new papers, datasets, demos, and leaderboards
+          can be added as the lab grows.
+        </p>
+      </section>
+
+      <section id="people" class="section people">
+        <div class="section-heading">
+          <p class="eyebrow">People</p>
+          <h2>Advisor and team</h2>
+        </div>
+        <div class="people-layout">
+          <article class="profile">
+            <div class="avatar photo-avatar">
+              <img
+                src="https://lh3.googleusercontent.com/sitesv/AA5AbUAzvHeo6ghGNZ1aCvZeXiKplNHyxL9fUV4QiY76ycZ8N0aA_z0PZNTWFpBnbuLrZAD90QgD_mHCrTPZ7sCQSrS3Cj-k2W0cgrvj8eIhvcMGTVTARMenNwskJzgP89syH8lPgyuVWHOUQ3_7LbRJ_se1QZk_RzIfmt-NQJnywXCGtc4LT24lZ3Wd-_WQ8fKgEJAFI_MRE9cQbD23y1r2u_PlHftb1l1VD44qFWs=w1280"
+                alt="Shaohui Lin"
+                width="92"
+                height="92"
+                loading="lazy"
+                decoding="async"
+                referrerpolicy="no-referrer"
+                onerror="this.hidden=true"
+              />
+              <span>SL</span>
+            </div>
+            <div>
+              <h3>Shaohui Lin</h3>
+              <p>
+                Research interests include model compression and acceleration, efficient image restoration,
+                generation, and multimodal intelligent systems.
+              </p>
+              <div class="profile-links">
+                <a href="https://sites.google.com/site/shaohuilin007" target="_blank" rel="noreferrer">
+                  Homepage
+                </a>
+                <a href="https://github.com/EIC_Lab" target="_blank" rel="noreferrer">Lab GitHub</a>
+              </div>
+            </div>
+          </article>
+          <div class="team-placeholder">
+            <h3>Students, interns, and collaborators</h3>
+            <p>
+              Add member cards here with research topics, personal pages, and selected publications.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="join" class="section join">
+        <div>
+          <p class="eyebrow">Join us</p>
+          <h2>Build efficient AI with real impact</h2>
+          <p>
+            We welcome students and collaborators interested in efficient foundation models, low-level
+            vision, agents, and scientific AI.
+          </p>
+        </div>
+        <a class="button primary" href="https://sites.google.com/site/shaohuilin007" target="_blank" rel="noreferrer">
+          <i data-lucide="send"></i>
+          Contact
+        </a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© 2026 EIC Lab</span>
+      <div>
+        <a href="https://github.com/EIC_Lab" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://github.com/XPixelGroup" target="_blank" rel="noreferrer">Reference</a>
+        <a href="https://sites.google.com/site/shaohuilin007" target="_blank" rel="noreferrer">Homepage</a>
+      </div>
+    </footer>
+  </body>
+</html>

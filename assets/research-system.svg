@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">EIC Lab research system</title>
+  <desc id="desc">A clean abstract research system visual with model blocks, image grids, agent paths, and science nodes.</desc>
+  <rect width="1200" height="630" fill="#eef4f8"/>
+  <path d="M0 470 C190 390 270 510 450 430 C630 350 720 260 910 305 C1040 335 1100 255 1200 215 L1200 630 L0 630 Z" fill="#dceaf2"/>
+  <g fill="none" stroke="#17212b" stroke-opacity=".12" stroke-width="2">
+    <path d="M90 92 H1110"/>
+    <path d="M90 196 H1110"/>
+    <path d="M90 300 H1110"/>
+    <path d="M90 404 H1110"/>
+    <path d="M185 52 V560"/>
+    <path d="M380 52 V560"/>
+    <path d="M575 52 V560"/>
+    <path d="M770 52 V560"/>
+    <path d="M965 52 V560"/>
+  </g>
+  <g transform="translate(118 108)">
+    <rect width="270" height="170" rx="10" fill="#ffffff" stroke="#d9e2e9"/>
+    <rect x="28" y="32" width="66" height="66" rx="8" fill="#1e63b6"/>
+    <rect x="112" y="32" width="66" height="66" rx="8" fill="#008b8f"/>
+    <rect x="196" y="32" width="46" height="66" rx="8" fill="#398153"/>
+    <path d="M36 124 H230" stroke="#17212b" stroke-width="10" stroke-linecap="round"/>
+    <path d="M36 146 H168" stroke="#c95f50" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(470 80)">
+    <circle cx="145" cy="145" r="112" fill="#ffffff" stroke="#d9e2e9"/>
+    <circle cx="145" cy="145" r="48" fill="#1e63b6" fill-opacity=".12" stroke="#1e63b6" stroke-width="12"/>
+    <path d="M145 35 V82 M145 208 V255 M35 145 H82 M208 145 H255" stroke="#008b8f" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="145" cy="145" r="16" fill="#c95f50"/>
+  </g>
+  <g transform="translate(795 115)">
+    <rect width="265" height="205" rx="10" fill="#ffffff" stroke="#d9e2e9"/>
+    <path d="M45 150 C78 82 126 180 158 92 C176 42 218 70 228 45" fill="none" stroke="#1e63b6" stroke-width="14" stroke-linecap="round"/>
+    <circle cx="45" cy="150" r="15" fill="#398153"/>
+    <circle cx="158" cy="92" r="15" fill="#008b8f"/>
+    <circle cx="228" cy="45" r="15" fill="#c95f50"/>
+  </g>
+  <g transform="translate(155 360)">
+    <rect width="880" height="118" rx="10" fill="#17212b"/>
+    <text x="36" y="52" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="800" fill="#ffffff">EIC Lab</text>
+    <text x="36" y="86" font-family="Inter, Arial, sans-serif" font-size="18" fill="#c8d5df">Efficient Intelligent Computing for Models, Vision, Agents, and Science</text>
+    <path d="M684 30 H820 M684 59 H790 M684 88 H845" stroke="#ffffff" stroke-opacity=".72" stroke-width="10" stroke-linecap="round"/>
+  </g>
+</svg>
