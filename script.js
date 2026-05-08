@@ -8,6 +8,7 @@ const icons = {
     '<ellipse cx="12" cy="12" rx="9" ry="4" transform="rotate(0 12 12)"/><ellipse cx="12" cy="12" rx="9" ry="4" transform="rotate(60 12 12)"/><ellipse cx="12" cy="12" rx="9" ry="4" transform="rotate(120 12 12)"/><circle cx="12" cy="12" r="1.6" fill="currentColor"/>',
   bot: '<rect x="5" y="9" width="14" height="10" rx="2"/><path d="M12 5v4"/><path d="M8 15h.01"/><path d="M16 15h.01"/><path d="M9 19v2"/><path d="M15 19v2"/>',
   boxes: '<path d="M21 8l-9-5-9 5 9 5 9-5z"/><path d="M3 8v8l9 5 9-5V8"/><path d="M12 13v8"/>',
+  "chevron-down": '<path d="m6 9 6 6 6-6"/>',
   "code-2": '<path d="M18 16l4-4-4-4"/><path d="M6 8l-4 4 4 4"/><path d="M14.5 4l-5 16"/>',
   "external-link": '<path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>',
   gauge: '<path d="M21 12a9 9 0 1 0-18 0"/><path d="M12 12l4-4"/>',
